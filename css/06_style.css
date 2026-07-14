@@ -1,0 +1,35 @@
+h1{
+    background-color: orange;
+    /* height: 300px; */
+    width: 300px; 
+
+    /* border-width: 5px;
+    border-color: black;
+    border-style: solid; */
+
+    /* border: 10px solid green; 
+    padding: 10px;
+    margin: 30px; */
+
+    /* border-top: 10px solid green;
+    border-bottom: 10px solid green; */
+
+    border: 10px solid black;
+    /* padding-top: 10px; */
+    padding: 10px 20px 30px 40px;
+    /* margin-top: 50px; */
+    margin: 10px 20px 30px 40px;
+
+    border-radius:10px;
+}
+
+h2{
+    background-color: pink;
+    border: 2px solid blue;
+}
+p{
+    background-color: aquamarine;
+    border: 5px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+}

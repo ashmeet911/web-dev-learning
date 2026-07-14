@@ -1,0 +1,14 @@
+.container{
+    height:200px;
+    width:200px;
+    background-color: orange;
+    /* box-shadow: 10px 10px blue */
+
+    box-shadow: 10px 10px 3px blue; /* blur-radius*/
+
+    box-shadow: 10px 10px 3px 10px blue; /* spread-radius */
+
+    /* box-shadow: 0px 0px 0px 20px blue; */
+
+    box-shadow: inset 10px 10px blue;
+}

@@ -1,0 +1,41 @@
+.container{
+    background-color: antiquewhite;
+    display:flex;
+    flex-direction: row;
+    /* flex-direction: row; :-by default */
+    height:400px;
+    justify-content:center;
+    align-items:center;
+    /* flex-wrap: wrap;  */
+    gap: 5px;
+}
+.box{
+    height:100px;
+    width:100px;
+    /* margin:5px; */
+}
+
+.first{
+    background-color: orange;
+    /* flex-grow: 1; */
+    flex-basis: 200px; 
+    /*it over-rides the width written earlier, getting the most priority*/
+}
+
+.second{
+    background-color: green;
+    flex-basis: 300px;
+    /* flex-grow: 2; */
+    /* flex-shrink:4; by default, it is 1 */
+}
+
+.third{
+    background-color: red;
+    /* flex-grow: 1; */
+    align-self: flex-start;
+}
+
+.fourth{
+    background-color: blue;
+    /* flex-grow: 3; */
+}

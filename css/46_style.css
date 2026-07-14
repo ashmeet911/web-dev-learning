@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    color: red;
+/* 
+    overflow:hidden; */
+    overflow: scroll;
+}
