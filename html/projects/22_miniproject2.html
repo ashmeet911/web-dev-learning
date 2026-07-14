@@ -1,0 +1,119 @@
+<!--Creating a form for University Registration -->
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>University Registration Form</title>
+    </head>
+    <body>
+        <h1>University registration Form</h1>
+        <p>Please fill out the form below to register.</p>
+        <hr/>
+
+        <h2>Personal details</h2>
+        <form>
+            <label for="firstName">First Name: </label>
+            <input type="text" id="firstName" name="firstName" placeholder="e.g., Arjun">
+            <br/><br/>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" placeholder="e.g., Kumar">
+            <br/><br/>
+
+            <label for="DOB">Date of Birth: </label>
+            <input type="date" id="DOB" name="DOB">
+            <br/><br/>
+
+            <label for="gender">Gender: </label>
+            <br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <br/>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br/>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+            <br/><br/>
+
+            <label for="photo">Upload your photo: </label>
+            <br/>
+            <input type="file" id="photo" name="photo">
+        </form>
+
+        <hr/>
+        <h2>Contact Information</h2>
+        <form>
+            <label for="email">Email Address: </label>
+            <input type="email" id="email" name="email" placeholder="you@example.com">
+            <br/><br/>
+
+            <label for="phone">Phone Number: </label>
+            <input type="tel" id="phone" name="phone" placeholder="e.g., 9876543210">
+            <br/><br/>
+
+            <label for="address">Mailing Address:</label>
+            <br/>
+            <textarea id="address" name="address" placeholder="Street Address, City, State, ZIP Code" rows="6" cols="20"></textarea>
+        </form>
+        <hr/>
+
+        <h2>Academic Information</h2>
+        <form>
+            <label for="course">Select your Course:</label>
+            <br/>
+            <select name="course" id="course">
+                <option value="">--Choose your Course--</option>
+                <option value="CSE">CSE</option>
+                <option value="ME">ME</option>
+                <option value="CE">CE</option>
+                <option value="EE">EE</option>
+                <option value="BBA">BBA</option>
+            </select>
+            <br/><br/>
+
+            <label>Extracurricular Activities:</label>
+            <br/>
+            <input type="checkbox" name="activities" id="sports">
+            <label for="sports">Sports</label>
+            <br/>
+            <input type="checkbox" name="activities" id="music">
+            <label for="music">Music & Arts</label>
+            <br/>
+            <input type="checkbox" name="activities" id="Tech">
+            <label for="Tech">Technology Clubs</label>
+            <br/>
+            <input type="checkbox" name="activities" id="volunteer">
+            <label for="volunteer">Volunteering</label>
+            <br/>
+            <hr/>
+
+        </form>
+
+        <h2>Create Your Account</h2>
+        <form>
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password">
+        <br/><br/>
+
+        <label for="question">Security Question:</label>
+        <br/>
+        <select name="question" id="question">
+            <option value="What was your first pet's name?">What was your first pet's name?</option>
+            <option value="What was your first school's name?">What was your first school's name?</option>
+            <option value="Which city did you grow up in?">Which city did you grow up in?</option>
+            <option value="What is your favorite book?">What is your favorite book?</option>
+        </select>
+        <br/><br/>
+        <label for="answer">Security Answer:</label>
+        <input type="text" id="answer" name="answer">
+        <br/><br/>
+        <input type="checkbox" id="terms" name="terms">
+        <label for="terms">I agree to the Terms and Conditions</label>
+        </form>
+        <hr/>
+        <input type="submit" value="Register">
+        <input type="submit" value="Clear Form">
+    </body>
+</html>
